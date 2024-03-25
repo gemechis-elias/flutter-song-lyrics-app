@@ -22,39 +22,39 @@ A Flutter application for managing song lyrics with Firebase integration and an 
 
 Follow these steps to set up the project:
 
-1. Clone the repository:
+A. Clone the repository:
 
 ```bash
 git clone https://github.com/gemechis-elias/flutter-song-lyrics-app.git 
 ```
 
-Create a Firebase project:
+B. Create a Firebase project:
 
 1. Go to the Firebase Console.
 2. Click on "Add project" and follow the instructions to create a new Firebase project.
 
-Add Firebase to your Flutter app:
+C. Add Firebase to your Flutter app:
 
 1. Follow the steps outlined in the Firebase documentation to add Firebase to your Flutter project.
 
-Enable User Authentication:
+D. Enable User Authentication:
 
 1. In the Firebase Console, navigate to "Authentication" and enable the "Email/Password" sign-in method.
 2. Add a test user for admin access using their email and password.
 
-Enable Firebase Realtime Database and Storage:
+E. Enable Firebase Realtime Database and Storage:
 
 1. In the Firebase Console, navigate to "Database" and select "Realtime Database".
 2. Follow the prompts to enable Realtime Database and select the testing mode.
 3. Similarly, navigate to "Storage" and enable it.
 
-Import database structure:
+F. Import database structure:
 
 1. Import the database structure from assets/song-lyrics-app-export.json to your Firebase Realtime Database.
 
-Contribution:
+## Contribution:
 
-Contributions are welcome! Here's how you can contribute:
+Contributions are welcome! Here's how you can contribute 😊:
 
 1. Fork the repository.
 2. Clone the forked repository to your local machine.
@@ -63,6 +63,6 @@ Contributions are welcome! Here's how you can contribute:
 5. Push your changes to your forked repository.
 6. Submit a pull request to the main repository.
 
-License:
+## License:
 
 This project is licensed under the MIT License. Feel free to use and modify it according to your needs. Contributions are appreciated.

@@ -32,7 +32,7 @@ class HomeScreenState extends State<HomeScreen> {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     setState(() {
       favoriteIds = prefs.getStringList('favoriteIds') ?? [];
-      print("========== Loaded favorites: " + favoriteIds.toString());
+      print("========== Loaded favorites: ");
     });
   }
 
@@ -62,13 +62,13 @@ class HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    log("Homes======== ${widget.songsData}");
+    log("Home State======== ");
 
     return Scaffold(
       appBar: AppBar(
         title: const Center(
           child: Text(
-            'Thummim Choir',
+            'Song Lyrics',
             style: TextStyle(
               fontFamily: 'Satisfy',
               fontWeight: FontWeight.bold,

@@ -11,10 +11,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  //   await FirebaseAppCheck.instance.activate(
-  //   webProvider: 'recaptcha-v3-site-key',
 
-  // );
   enableDatabasePersistence();
   final savedThemeMode = await AdaptiveTheme.getThemeMode();
   runApp(MyApp(savedThemeMode: savedThemeMode));
@@ -33,7 +30,6 @@ class MyApp extends StatelessWidget {
 
   const MyApp({super.key, this.savedThemeMode});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return AdaptiveTheme(

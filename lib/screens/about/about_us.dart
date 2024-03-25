@@ -1,9 +1,5 @@
-import 'dart:developer';
-
-import 'package:adaptive_theme/adaptive_theme.dart';
-import 'package:flutter/material.dart';
-import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:mezmur_debter/screens/about/login_dialog.dart';
 
 import '../admin/dashboard.dart';
@@ -24,7 +20,7 @@ class AboutScreenState extends State<AboutScreen> {
         appBar: AppBar(
           title: const Center(
             child: Text(
-              'About Choir',
+              'About Us',
               style: TextStyle(
                 fontFamily: 'Satisfy',
                 fontWeight: FontWeight.bold,

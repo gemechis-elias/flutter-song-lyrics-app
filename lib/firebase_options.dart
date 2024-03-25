@@ -50,21 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCPzjVDdQdsCzFhtLywG7lifkbxwTxHWDM',
-    appId: '1:62035373259:android:a79f2f80700f5cdce9ff4e',
-    messagingSenderId: '62035373259',
-    projectId: 'thummim-app',
-    databaseURL: 'https://thummim-app-default-rtdb.firebaseio.com',
-    storageBucket: 'thummim-app.appspot.com',
+    apiKey: 'AIzaSyDRHXIB1GxeWWZ89iq5n7O38CHbd11F7u0',
+    appId: '1:320132208574:android:5e28dc242cbe33e98e0bef',
+    messagingSenderId: '320132208574',
+    projectId: 'song-lyrics-app-4020f',
+    storageBucket: 'song-lyrics-app-4020f.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD0skA4IBMnyWhzkMChYTJm0uaLrkxDEu4',
-    appId: '1:62035373259:ios:56b045a3b6358608e9ff4e',
-    messagingSenderId: '62035373259',
-    projectId: 'thummim-app',
-    databaseURL: 'https://thummim-app-default-rtdb.firebaseio.com',
-    storageBucket: 'thummim-app.appspot.com',
+    apiKey: 'AIzaSyBuyS6_2CTril6n-_BIx_wzO6f-b2hH71s',
+    appId: '1:320132208574:ios:712be5612dbc944b8e0bef',
+    messagingSenderId: '320132208574',
+    projectId: 'song-lyrics-app-4020f',
+    storageBucket: 'song-lyrics-app-4020f.appspot.com',
     iosBundleId: 'com.tumim.mezmurDebter',
   );
 }

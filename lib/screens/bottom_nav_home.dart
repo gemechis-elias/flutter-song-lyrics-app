@@ -76,7 +76,6 @@ class HomeState extends State<Home> {
           } else {
             print("Value is not in the expected Map<dynamic, dynamic> format.");
             print(value.toString());
-           
           }
         } catch (e) {
           print("Error in fetchData: $e");
@@ -107,25 +106,25 @@ class HomeState extends State<Home> {
             /// Home
             SalomonBottomBarItem(
               icon: const Icon(Icons.book),
-              title: const Text("መዝሙሮች"),
+              title: const Text("Songs"),
               selectedColor: const Color.fromARGB(255, 35, 136, 244),
             ),
 
             SalomonBottomBarItem(
               icon: const Icon(Icons.favorite_border_outlined),
-              title: const Text("የተወደዱ"),
+              title: const Text("Favorites"),
               selectedColor: const Color.fromARGB(255, 35, 136, 244),
             ),
 
             SalomonBottomBarItem(
               icon: const Icon(Icons.photo_library),
-              title: const Text("ጋለሪ"),
+              title: const Text("Gallery"),
               selectedColor: const Color.fromARGB(255, 35, 136, 244),
             ),
 
             SalomonBottomBarItem(
               icon: const Icon(Icons.info),
-              title: const Text("ስለ ኳየሩ"),
+              title: const Text("About"),
               selectedColor: const Color.fromARGB(255, 35, 136, 244),
             ),
           ],

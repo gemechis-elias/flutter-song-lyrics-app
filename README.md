@@ -25,7 +25,8 @@ Follow these steps to set up the project:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/gemechis-elias/flutter-song-lyrics-app.git
+git clone https://github.com/gemechis-elias/flutter-song-lyrics-app.git 
+```
 
 Create a Firebase project:
 

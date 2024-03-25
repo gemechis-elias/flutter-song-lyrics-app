@@ -22,35 +22,35 @@ A Flutter application for managing song lyrics with Firebase integration and an 
 
 Follow these steps to set up the project:
 
-A. Clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/gemechis-elias/flutter-song-lyrics-app.git 
 ```
 
-B. Create a Firebase project:
+Create a Firebase project:
 
-1. Go to the Firebase Console.
-2. Click on "Add project" and follow the instructions to create a new Firebase project.
+- Go to the Firebase Console.
+- Click on "Add project" and follow the instructions to create a new Firebase project.
 
-C. Add Firebase to your Flutter app:
+Add Firebase to your Flutter app:
 
-1. Follow the steps outlined in the Firebase documentation to add Firebase to your Flutter project.
+- Follow the steps outlined in the Firebase documentation to add Firebase to your Flutter project.
 
-D. Enable User Authentication:
+Enable User Authentication:
 
-1. In the Firebase Console, navigate to "Authentication" and enable the "Email/Password" sign-in method.
-2. Add a test user for admin access using their email and password.
+- In the Firebase Console, navigate to "Authentication" and enable the "Email/Password" sign-in method.
+- Add a test user for admin access using their email and password.
 
-E. Enable Firebase Realtime Database and Storage:
+Enable Firebase Realtime Database and Storage:
 
-1. In the Firebase Console, navigate to "Database" and select "Realtime Database".
-2. Follow the prompts to enable Realtime Database and select the testing mode.
-3. Similarly, navigate to "Storage" and enable it.
+- In the Firebase Console, navigate to "Database" and select "Realtime Database".
+- Follow the prompts to enable Realtime Database and select the testing mode.
+- Similarly, navigate to "Storage" and enable it.
 
-F. Import database structure:
+Import database structure:
 
-1. Import the database structure from assets/song-lyrics-app-export.json to your Firebase Realtime Database.
+- Import the database structure from assets/song-lyrics-app-export.json to your Firebase Realtime Database.
 
 ## Contribution:
 

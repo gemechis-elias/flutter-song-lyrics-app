@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "62035373259",
+    "firebase_url": "https://thummim-app-default-rtdb.firebaseio.com",
+    "project_id": "thummim-app",
+    "storage_bucket": "thummim-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62035373259:android:a79f2f80700f5cdce9ff4e",
+        "android_client_info": {
+          "package_name": "com.tumim.mezmur_debter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPzjVDdQdsCzFhtLywG7lifkbxwTxHWDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

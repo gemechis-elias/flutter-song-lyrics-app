@@ -8,6 +8,7 @@ A Flutter application for managing song lyrics with Firebase integration and an 
 2. Add/Remove from Favorites
 3. Gallery
 4. Admin Portal to add, delete, and update Songs and Gallery
+5.  Supports Day/Night Mode
 
 ## Screenshot Demo
 
